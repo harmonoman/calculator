@@ -9,10 +9,10 @@ public class Test {
         String example = getString("enter a String");
         exampleArray = example.split(" ");
         
-        System.out.println(example);
-        System.out.println(exampleArray.length);
-        System.out.println(exampleArray[0]);
-        System.out.println(exampleArray[1]);
+        System.out.println("Input string: " + example);
+        System.out.println("Array length: " + exampleArray.length);
+        System.out.println("First element in array: " + exampleArray[0]);
+        System.out.println("Second element in array: " + exampleArray[1]);
 
     }
 
